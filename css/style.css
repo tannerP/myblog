@@ -349,6 +349,7 @@ body {
   width: 100%;
   height: 100%;
   background: url("images/banner.jpg") center #000;
+  opacity: 0.4;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -365,7 +366,7 @@ body {
 #logo,
 #subtitle {
   text-decoration: none;
-  color: #fff;
+  color: #808080;
   font-weight: 300;
   text-shadow: 0 1px 4px rgba(0,0,0,0.3);
 }
@@ -389,7 +390,7 @@ body {
 .nav-icon,
 .main-nav-link {
   float: left;
-  color: #fff;
+  color: #ff8c00;
   opacity: 0.6;
   text-decoration: none;
   text-shadow: 0 1px rgba(0,0,0,0.2);
@@ -549,7 +550,7 @@ body {
   transition: color 0.2s;
 }
 a.article-title:hover {
-  color: #258fb8;
+  color: #ff8e09;
 }
 .article-entry {
   color: #555;
@@ -586,7 +587,7 @@ a.article-title:hover {
   margin: 1.1em 0;
 }
 .article-entry a {
-  color: #258fb8;
+  color: #ff8e09;
   text-decoration: none;
 }
 .article-entry a:hover {
@@ -685,10 +686,10 @@ a.article-title:hover {
   text-decoration: none;
 }
 .article-more-link a:hover {
-  background: #258fb8;
+  background: #ff8e09;
   color: #fff;
   text-decoration: none;
-  text-shadow: 0 1px #1e7293;
+  text-shadow: 0 1px #d37200;
 }
 .article-footer {
   font-size: 0.85em;
@@ -951,7 +952,7 @@ a.article-title:hover {
   margin: 50px 0;
 }
 #comments a {
-  color: #258fb8;
+  color: #ff8e09;
 }
 .archives-wrap {
   margin: 50px 0;
@@ -1007,7 +1008,7 @@ a.article-title:hover {
   line-height: 1.6em;
 }
 .archive-article-title:hover {
-  color: #258fb8;
+  color: #ff8e09;
 }
 .archive-article-footer {
   margin-top: 1em;
@@ -1081,7 +1082,7 @@ a.article-title:hover {
   color: #999;
 }
 #footer a {
-  color: #258fb8;
+  color: #ff8e09;
   text-decoration: none;
 }
 #footer a:hover {
@@ -1202,7 +1203,7 @@ a.article-title:hover {
   margin-left: 20px;
 }
 .article-entry .gist .gist-file .gist-meta a {
-  color: #258fb8;
+  color: #ff8e09;
   font-weight: normal;
 }
 .article-entry .gist .gist-file .gist-meta a:hover {
@@ -1284,7 +1285,7 @@ pre .javascript .function {
     font-weight: bold;
   }
   .mobile-nav-link:hover {
-    color: #fff;
+    color: #ffa500;
   }
 }
 @media screen and (min-width: 768px) {
@@ -1299,8 +1300,9 @@ pre .javascript .function {
   margin: 50px 0;
 }
 .widget {
+  opacity: 1;
   color: #777;
-  text-shadow: 0 1px #fff;
+  text-shadow: 0 1px #f8f8ff;
   background: #ddd;
   -webkit-box-shadow: 0 -1px 4px #ccc inset;
   box-shadow: 0 -1px 4px #ccc inset;
@@ -1309,7 +1311,7 @@ pre .javascript .function {
   border-radius: 3px;
 }
 .widget a {
-  color: #258fb8;
+  color: #ff8e09;
   text-decoration: none;
 }
 .widget a:hover {
